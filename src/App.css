@@ -1,0 +1,186 @@
+/* The code you provided is a CSS stylesheet that contains styling rules for a web page layout. Here's
+a breakdown of what each section does: */
+/* General Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 250px;
+  background-color: #111;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar .menu {
+  list-style: none;
+}
+
+.sidebar .menu li {
+  margin-bottom: 20px;
+}
+
+.sidebar .menu li a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .menu li a:hover {
+  color: #fff;
+}
+
+.sidebar .menu li a.active {
+  color: #ff3b3f;
+}
+
+.sidebar .general {
+  list-style: none;
+}
+
+.sidebar .general li {
+  margin-top: 20px;
+}
+
+.sidebar .general li a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.sidebar .general li a:hover {
+  color: #fff;
+}
+
+/* Main Content Styling */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.artist-info img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.artist-info h1 {
+  font-size: 32px;
+}
+
+.artist-info p {
+  color: #888;
+  font-size: 16px;
+}
+
+.song-list {
+  margin-top: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.song-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.song-list table thead {
+  background-color: #444;
+  font-weight: bold;
+}
+
+.song-list table th,
+.song-list table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+.song-list table tr:last-child td {
+  border-bottom: none;
+}
+
+.song-list table tr:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+.song-list table tr.active {
+  background-color: #ff3b3f;
+}
+
+.song-list table tr.active td {
+  color: #fff;
+}
+
+.song-list table th {
+  color: #ccc;
+}
+
+/* Right-Side Card (Player Controls) Styling */
+.player-controls {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-controls img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.player-controls h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.player-controls .controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+}
+
+.player-controls .controls button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.player-controls .controls button:hover {
+  color: #ff3b3f;
+} */
