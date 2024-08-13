@@ -32,7 +32,7 @@ const Sidebar = () => {
         <Box sx={{ textAlign: 'center', marginBottom: 3 }}>
           <Box display="flex" alignItems="center" justifyContent="center">
             <img
-              src="/public/assets/images/musiclogo.png"
+              src="/assets/images/musiclogo.png"
               alt="DreamMusic Logo"
               style={{ width: 30, height: 30, marginRight: 8 }}
             />
