@@ -87,7 +87,7 @@ const NowPlaying = ({ currentSong, isPlaying, onPlayPause, onNext, onPrevious })
     >
       <Typography variant="h6" mb={2} pl={7}>Now Playing</Typography>
       
-        <Avatar src={"/public/assets/images/NowPlaying.jpg"} sx={{ width: 220, height: 100,marginRight: 5, 
+        <Avatar src={"/assets/images/NowPlaying.jpg"} sx={{ width: 220, height: 100,marginRight: 5, 
             borderRadius: 1  }} />
         <Box>
           <Typography variant="body1" sx={{ marginTop:5,marginLeft:8,fontWeight:700,fontSize: '1.5rem' }}>{currentSong.title}</Typography>
