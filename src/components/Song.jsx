@@ -7,8 +7,8 @@ const songs = [
     playingCount: '1.040.811.084',
     time: "4:53",
     duration:"4:53",
-    image: 'src/assets/images/image1.png',
-    src: "src/assets/audio/track1.mp3", 
+    image: 'public/assets/images/image1.png',
+    src: "public/assets/audio/track1.mp3", 
   },
   {
     id:'2',
@@ -17,8 +17,8 @@ const songs = [
     album: 'Thriller 25th Sup...',
     time: '4:58',
     playingCount: '634.786.045',
-    image: 'src/assets/images/image1.png',
-    src: 'src/assets/audio/track2.mp3',
+    image: 'public/assets/images/image1.png',
+    src: 'public/assets/audio/track2.mp3',
   },
   {
     id:'3',
@@ -27,8 +27,8 @@ const songs = [
     album: "Thriller 25th Sup...",
     playingCount: '407.234.004',
     time: "4:17",
-    image: 'src/assets/images/image2.png',
-    src: "src/assets/audio/track3.mp3", 
+    image: 'public/assets/images/image2.png',
+    src: "public/assets/audio/track3.mp3", 
   },
   {
     id:'4',
@@ -37,8 +37,8 @@ const songs = [
     album: "Bad 25th Anni...",
     playingCount: '316.391.952',
     time: "4:18",
-    image: 'src/assets/images/image3.png',
-    src: "src/assets/audio/track4.mp3", 
+    image: 'public/assets/images/image3.png',
+    src: "public/assets/audio/track4.mp3", 
   },
   {
     id:'5',
@@ -47,8 +47,8 @@ const songs = [
     album: "Off The Wall",
     playingCount: '268.187.218',
     time: "3:22",
-    image: 'src/assets/images/image3.png',
-    src: "src/assets/audio/track5.mp3", 
+    image: 'public/assets/images/image3.png',
+    src: "public/assets/audio/track5.mp3", 
   },
 ];
 

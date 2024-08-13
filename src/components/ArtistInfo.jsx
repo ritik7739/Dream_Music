@@ -112,8 +112,8 @@ const App = () => {
   const artist = {
     name: 'Michael Jackson',
     listeners: '27.852.501',
-    image: './src/assets/images/avtar.png', // Path to the avatar image
-    backgroundImage: './src/assets/images/background-img.png' // Path to the background image
+    image: './public/assets/images/avtar.png', // Path to the avatar image
+    backgroundImage: './public/assets/images/background-img.png' // Path to the background image
   };
 
   return <ArtistInfo artist={artist} />;
